@@ -28,7 +28,7 @@ print(friends.index("Oscar"))
 print(friends.count("Jim"))
 # .count(data) -> menghitung berapa jumlah data itu dalam suatu list
 
-friends.sort()
+# friends.sort()
 # .sort() -> untuk sorting data di list
 # harus tipe data sama (gk bisa digabung strings dan int)
 
