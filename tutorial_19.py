@@ -19,4 +19,8 @@ monthConversion = {
 
 
 # akses dictionary, bukan menggunakan index tapi "key"
-print(monthConversion["Jan"])
+#print(monthConversion["Jan"])
+
+print(monthConversion.get("Luv", "Not a valid key"))
+# Kalau pakei .get() itu akan membantu ketika key yang dimasukkan itu tidak ada
+# parameter ke 2 akan menjadi default value ketika key nya tidak ada
