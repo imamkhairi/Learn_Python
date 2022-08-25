@@ -1,0 +1,1 @@
+# ketikkan python3 di terminal
